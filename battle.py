@@ -24,7 +24,7 @@ def fight(factory1: CreatureFactory, factory2: CreatureFactory) -> None:
     print(base2.attack())
 
 
-def main() -> None:
+def battle() -> None:
     flame = FlameFactory()
     single(flame)
     print()
@@ -37,4 +37,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    battle()
