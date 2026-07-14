@@ -6,7 +6,7 @@ from ex2 import AggresiveStrategy
 from ex2.strategy import BattleStrategy, DefensiveStrategy, NormalStrategy
 
 
-def single() -> None:
+def single(battle_list : list[tuple[CreatureFactory, BattleStrategy]]) -> None:
     flame_competitor: tuple[CreatureFactory, BattleStrategy] = (
         FlameFactory(),
         NormalStrategy(),
@@ -19,6 +19,7 @@ def single() -> None:
         flame_competitor,
         aqua_competitor,
     ]
+
 
 
 def tournament() -> None:
