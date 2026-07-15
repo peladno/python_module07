@@ -5,7 +5,7 @@ from .capability import HealCapability, TransformCapability
 
 class Sproutling(Creature, HealCapability):
     def attack(self) -> str:
-        return f"{self.name} uses Vina Whipe!"
+        return f"{self.name} uses Vine Whip!"
 
     def heal(self, target: str | None = None) -> str:
         if target is not None:

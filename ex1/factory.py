@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from ex0.creature_factory import CreatureFactory
-from ex1.creatures import Bloomelle, Morphagon, Shifling, Sproutling
+from ex1.creature import Bloomelle, Morphagon, Shifling, Sproutling
 
 
 class HealingCreatureFactory(CreatureFactory):
